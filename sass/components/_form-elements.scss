@@ -1,0 +1,32 @@
+// Form Elements Stylesheet
+// ========================================
+
+// Label Styling -- Delete this if you are not using a label
+.form {
+  margin: auto;
+  display: block;
+  margin: auto;
+  background-color: $gray;
+  width: 60%;
+  padding: 3% 0 3% 0;
+  max-width: 500px;
+
+  &__label{
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-bottom: $spacer-s;
+  }
+
+  // Basic Form Input Styling
+
+  input {
+    margin-left: 35%;
+  }
+
+  // Select Form Input Styling
+
+  select {
+    margin-left: 45%;
+  }
+}

@@ -1,0 +1,157 @@
+// Base Layout Stylesheet
+// This is where your layout of the project will go
+// ========================================
+
+body {
+  text-align: center;
+}
+
+.header {
+  display: inline;
+}
+
+.header__logo {
+  width: 45%;
+  float: left;
+  max-width: 450px;
+
+  @include media($small){
+    width: 35%;
+  }
+}
+
+.nav {
+  display: inline-flex;
+
+  &__list a {
+    display: inline;
+    list-style-type: none;
+    width: 100px;
+    color: $white;
+    text-decoration: none;
+  }
+
+  &__list--item {
+    margin-left: 10px;
+    display: inline-flex;
+    color: $white;
+    border-radius: 10%;
+    margin-top: 5%;
+    text-decoration: none;
+    text-align: center;
+    background-color: $red;
+    color: $white;
+    padding: 2% 0 2% 0;
+
+    @include media ($small) {
+      display: block;
+    }
+  }
+
+  &__list--item:hover {
+    background-color: $gray;
+    color: $red;
+    padding: 1% 0 1% 0;
+  }
+}
+
+.main {
+  padding: $spacer-m;
+  margin-top: 13%;
+  font-family: $primary-font;
+
+  &__section {
+    margin: $spacer-lg $reset-0;
+  }
+
+  &__section--img {
+    width: 25%;
+    display: inline-flex;
+
+  }
+}
+
+.colors {
+  text-align: center;
+
+  &__list {
+    text-align: center;
+    display: flex;
+    margin: auto;
+    display: inline-flex;
+  }
+
+  &__list--one {
+    background-color: $red;
+    height: 75px;
+    width: 75px;
+    color: $red;
+  }
+
+  &__list--two {
+    background-color: $black;
+    height: 75px;
+    width: 75px;
+    color: $black;
+  }
+
+  &__list--three {
+    background-color: $white;
+    height: 75px;
+    width: 75px;
+    color: $white;
+    border-color: $black;
+    border-width: 1px;
+    border-style: groove;
+    margin-left: 5px;
+  }
+
+  &__list--ones {
+    background-color: $red;
+    height: 75px;
+    width: 75px;
+    color: $red;
+  }
+
+  &__list--twos {
+    background-color: $green;
+    height: 75px;
+    width: 75px;
+    color: $green;
+  }
+
+
+  &__list--onea {
+    background-color: $gray;
+    height: 75px;
+    width: 75px;
+    color: $gray;
+  }
+
+  &__list--twoa {
+    background-color: $darkgray;
+    height: 75px;
+    width: 75px;
+    color: $darkgray;
+  }
+
+  &__list--threea {
+    background-color: $gold;
+    height: 75px;
+    width: 75px;
+    color: $gold;
+  }
+}
+
+.item-container {
+    margin: $spacer-m $reset-0;
+}
+
+.footer {
+  width: 100%;
+  background-color: $darkgray;
+  padding: 2%;
+  color: $white;
+  text-align: center;
+  margin-top: 10%;
+}

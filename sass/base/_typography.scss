@@ -1,0 +1,56 @@
+// Base Typography Stylesheet
+// This is where your base typography will go
+// ========================================
+
+h1 {
+  text-align: center;
+  font-family: $secondary-font;
+  font-size: 2rem;
+  color: $gold;
+
+  @include media($small) {
+    font-size: 1.8rem;
+    margin-top: 50px;
+  }
+}
+
+h2 {
+  text-align: center;
+  font-family: $primary-font;
+  font-size: 2rem;
+  display: block;
+}
+
+h3 {
+  text-align: center;
+  font-family: $primary-font;
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-family: $primary-font;
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-family: $primary-font;
+  font-size: 1.2rem;
+}
+
+h6 {
+  font-family: $primary-font;
+  font-size: 1rem;
+}
+
+p {
+  font-family: $primary-font;
+  font-size: 1.1rem;
+}
+
+a {
+  color: $white;
+
+  &:hover {
+  color: $black;
+  }
+}

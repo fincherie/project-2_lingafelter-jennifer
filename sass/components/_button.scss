@@ -1,0 +1,35 @@
+// Button Component Stylesheet
+// ========================================
+.button {
+  width: 25%;
+  text-align: center;
+  margin: auto;
+
+  &--primary {
+    background-color: $red;
+    color: $white;
+    padding: 5% 0 5% 0;
+
+    &:hover {
+      background-color: $white;
+      color: $red;
+}
+}
+
+    &--secondary {
+    background-color: $black;
+    color: $white;
+    padding: 5% 0 5% 0;
+
+    &:hover {
+      background-color: $white;
+      color: $black;
+    }
+}
+
+  &--disabled {
+    background-color: $gray;
+    color: $white;
+    padding: 5% 0 5% 0;
+  }
+}
