@@ -3,15 +3,23 @@
 // ========================================
 
 h1 {
-  text-align: center;
-  font-family: $secondary-font;
-  font-size: 2rem;
-  color: $gold;
-
   @include media($small) {
     font-size: 1.8rem;
-    margin-top: 50px;
+    text-align: center;
+    font-family: $secondary-font;
+    color: $gold;
   }
+
+  @include media($medium) {
+    font-size: 2rem;
+    color: $gold;
+    font-family: $secondary-font;
+    float: left;
+  }
+
+  @include media($large) {
+      float: left;
+    }
 }
 
 h2 {
@@ -48,7 +56,9 @@ p {
 }
 
 a {
-  color: $white;
+  color: $red;
+  font-family: $third-font;
+  font-size: 1.2rem;
 
   &:hover {
   color: $black;

@@ -1,9 +1,14 @@
 // Button Component Stylesheet
 // ========================================
 .button {
-  width: 25%;
+  width: 120px;
   text-align: center;
   margin: auto;
+
+  @include media ($medium) {
+    float: right;
+    margin-right: 20px;
+  }
 
   &--primary {
     background-color: $red;

@@ -7,51 +7,51 @@ body {
 }
 
 .header {
-  display: inline;
+  @include media($small){
+  display: block;
+  }
 }
 
 .header__logo {
-  width: 45%;
-  float: left;
-  max-width: 450px;
-
   @include media($small){
     width: 35%;
+  }
+  @include media($medium){
+    width: 20%;
+    float: left;
+    max-width: 450px;
+  }
+  @include media($large){
+    width: 25%;
   }
 }
 
 .nav {
-  display: inline-flex;
+  @include media ($small) {
+    display: block;
+    }
+}
 
+.nav {
+  @include media ($medium) {
+    display: inline-flex;
+}
   &__list a {
     display: inline;
     list-style-type: none;
     width: 100px;
-    color: $white;
+    color: $red;
     text-decoration: none;
   }
 
   &__list--item {
     margin-left: 10px;
     display: inline-flex;
-    color: $white;
+    color: $red;
     border-radius: 10%;
     margin-top: 5%;
     text-decoration: none;
     text-align: center;
-    background-color: $red;
-    color: $white;
-    padding: 2% 0 2% 0;
-
-    @include media ($small) {
-      display: block;
-    }
-
-    &:hover {
-      background-color: $gray;
-      color: $red;
-      padding: 1% 0 1% 0;
-    }
   }
 }
 .main {
