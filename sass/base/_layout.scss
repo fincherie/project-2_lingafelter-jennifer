@@ -46,15 +46,14 @@ body {
     @include media ($small) {
       display: block;
     }
-  }
 
-  &__list--item:hover {
-    background-color: $gray;
-    color: $red;
-    padding: 1% 0 1% 0;
+    &:hover {
+      background-color: $gray;
+      color: $red;
+      padding: 1% 0 1% 0;
+    }
   }
 }
-
 .main {
   padding: $spacer-m;
   margin-top: 13%;
@@ -67,7 +66,6 @@ body {
   &__section--img {
     width: 25%;
     display: inline-flex;
-
   }
 }
 

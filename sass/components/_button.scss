@@ -10,21 +10,21 @@
     color: $white;
     padding: 5% 0 5% 0;
 
-    &:hover {
-      background-color: $white;
-      color: $red;
-}
+  &:hover {
+    background-color: $white;
+    color: $red;
+  }
 }
 
-    &--secondary {
+  &--secondary {
     background-color: $black;
     color: $white;
     padding: 5% 0 5% 0;
 
-    &:hover {
+  &:hover {
       background-color: $white;
       color: $black;
-    }
+  }
 }
 
   &--disabled {
