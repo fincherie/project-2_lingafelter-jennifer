@@ -5,34 +5,35 @@
 .form {
   margin: auto;
   margin-top: 7%;
-
   background-color: $gray;
-  width: 60%;
-  padding: 3% 0 3% 0;
+  border-color: $darkgray;
+  border-style: groove;
+  border-width: 3px;
+  border-radius: 5px;
+  padding: 1% 0 3% 0;
   max-width: 500px;
-
-  @include media ($medium) {
-      display: flex;
-
-    }
-
 
   &__label{
     margin: auto;
     display: block;
     text-align: center;
-    margin-bottom: $spacer-s;
+    margin-top: $spacer-s;
+
+    font-size: 1.2rem;
   }
 
+&__message {
+  width: 70%;
+  }
+}
   // Basic Form Input Styling
 
-  input {
-
-  }
+input {
+  padding: $spacer-s;
+  width: 70%;
+}
 
   // Select Form Input Styling
-
-  select {
-
-  }
+select {
+  width: 70%;
 }

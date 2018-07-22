@@ -38,3 +38,40 @@
     padding: 5% 0 5% 0;
   }
 }
+
+.contactbutton {
+
+  text-align: center;
+  margin: auto;
+  font-size: 1.2rem;
+
+  &--primary {
+    background-color: $red;
+    color: $white;
+    padding: 2% 0 2% 0;
+    width: 30%;
+
+  &:hover {
+    background-color: $white;
+    color: $red;
+  }
+}
+
+  &--secondary {
+    background-color: $black;
+    color: $white;
+    padding: 2% 0 2% 0;
+    width: 30%;
+
+  &:hover {
+      background-color: $white;
+      color: $black;
+  }
+}
+
+  &--disabled {
+    background-color: $gray;
+    color: $white;
+    padding: 5% 0 5% 0;
+  }
+}
