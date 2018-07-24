@@ -30,12 +30,14 @@ body {
   @include media ($small) {
     display: block;
     }
+    @include media ($medium) {
+      display: inline-flex;
+    }
 }
 
 .nav {
-  @include media ($medium) {
-    display: inline-flex;
-}
+
+
   &__list a {
     display: inline;
     list-style-type: none;
@@ -54,6 +56,31 @@ body {
     text-align: center;
   }
 }
+
+//Footer nav
+.navfooter {
+
+  &__list a {
+
+  @include media ($small) {
+      display: block;
+      color: $white;
+      text-decoration: none;
+      text-align: center;
+      font-size: .7rem;
+  }
+  @include media ($medium) {
+    display: inline-flex;
+    list-style-type: none;
+    width: 100px;
+    color: $white;
+    text-decoration: none;
+  }
+
+}
+}
+//End footer nav
+
 .main {
   margin: $spacer-m;
   margin-top: 13%;
@@ -100,7 +127,6 @@ margin: 5% 5% 2% 5%;
   @include media ($medium) {
       display: flex;
     }
-
 }
 
 .mainabout__desc {
@@ -114,10 +140,58 @@ margin: 5% 5% 2% 5%;
 }
 
 .footer {
+  display: inline-flex;
+  justify-content: space-between;
   width: 100%;
   background-color: $darkgray;
   padding: 2%;
   color: $white;
   text-align: center;
   margin-top: 10%;
+}
+
+.leftfooter {
+  & p {
+    font-size: .7rem;
+
+      @include media ($medium) {
+        font-size: 1rem;
+      }
+    }
+}
+
+.navfooter__list--item {
+    @include media ($medium) {
+      display: inline-flex;
+    }
+}
+.socialfooter {
+  margin-right: 5%;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 50px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+	background-color: red;
+    color: #ffffff;
 }

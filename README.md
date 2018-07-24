@@ -16,9 +16,11 @@
 ## Project 2 - Part 3
 
 #### Resources
+I used W3Schools as my main reference for this initial phase of the project.  I created all of the pages first and am focusing on the basic styling of the elements including the mobile-first responsive design.
 
 #### Deductions
+I have reviewed the list of deductions for this project and in the syllabus.
 
 #### Comments
-
+My approach for this project is to create the pages and the main styles and will work on the javascript and jquery events after I get the site to look good.
 ---
