@@ -28,6 +28,9 @@
       <div class="button">
           <div class="item-container">
             <div class="button--primary">
+
+
+
               <p>SIGN IN</p>
             </div>
         </div>
@@ -40,6 +43,40 @@
         <h1>Party Planning Made Easy</h1>
     </header>
     <main class="main">
+
+      <button id="myBtn" class="button--modal">Click for Savings</button>
+
+        <div id="myModal" class="modal">
+
+          <div class="modal__container">
+            <header class="modal__header">
+               <span class="close">&times;</span>
+              <h2>10% Off Entire Order!</h2>
+                <p>when you register your email</p>
+              </header>
+
+
+
+          <form>
+              <label class="form__modal" for="email">Enter your email to receive 10% off today's order and subscribe to weekly savings!</label>
+              <input class="input modal__input "type="email" id="email" name="email" placeholder="abc@aol.com">
+                <ul class="modal__action-list">
+                  <li class="modal__action-list__item">
+                      <button class="modalbutton--secondary" >Cancel</button>
+
+                        </li>
+                        <li class="modal__action-list__item">
+
+            <input type="submit" value="submit" class="modalbutton--primary" />
+          </li>
+            </ul>
+
+
+          </form>
+        </div>
+
+        </div>
+
       <div class="main__section">
        <img src="img/taco.jpg" class="main__section--img" alt="taco" title="taco" />
         <div class="main__section--descr">
@@ -56,23 +93,6 @@
         <img src="img/table.jpeg" class="main__section--img" alt="table" title="table" />
     </div>
 
-    <div class="modal">
-      <div class="modal__top">
-        <h2>10% Off Entire Order!</h2>
-      <p>
-        when you register your email
-      </p>
-    </div>
-    <div class="modal__middle">
-      <p>
-        Enter your email to receive 10% off today's order and subscribe to weekly savings!
-      </p>
-      <label class="form__modal" for="email">Email</label>
-        <input class="form__modal--item "type="email" id="email" name="email" placeholder="abc@aol.com">
-    </div>
-    <input class="modalbutton--primary" type="submit" value="Submit">
-      <button class="modalbutton--secondary" type="reset" value="Reset">Reset</button>
-    </div>
   </main>
     <footer class="footer">
       <div class="leftfooter">
@@ -99,5 +119,10 @@
       	<a href="http://www.instagram.com" target="blank" title="Instagram" class="fa fa-instagram"></a>
     </div>
     </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="js/modal.js"></script>
   </body>
 </html>

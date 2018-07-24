@@ -1,5 +1,13 @@
 // Button Component Stylesheet
 // ========================================
+.button--modal {
+  background-color: $red;
+  padding: $spacer-s;
+  color: $white;
+  font-size: 1rem;
+  float: left;
+}
+
 .button {
   width: 120px;
   text-align: center;
