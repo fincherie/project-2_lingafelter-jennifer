@@ -4,7 +4,7 @@
 [Jennifer's Github](https://github.com/fincherie/project-2_lingafelter-jennifer)
 
 #### Link to website
-[Website Link](www.thisisyourwebsite.com)
+[Website Link](http://jlingafelter.com/project-2_lingafelter-jennifer)
 <!-- Edit this for Project 2 - Part 3 -->
 
 #### Instructions on how to view
