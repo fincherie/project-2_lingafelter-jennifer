@@ -1,14 +1,21 @@
 /*
-Error: Undefined variable: "$spacer-m".
-        on line 2 of sass/components/popover.scss
+Error: Undefined variable: "$third-font".
+        on line 15 of sass/components/jquery.popup.scss
 
-1: .popover {
-2:   padding: $spacer-m;
-3:   background-color: $grey;
-4: }
+10:   transition:top 800ms;
+11: }
+12: .js__p_start {
+13:   text-decoration: none;
+14:   padding-top: 2%;
+15: font-family: $third-font;
+16: }
+17: 
+18: /* JS-styles — declaratively *\/
+19: .js__popup {}
+20:   .js__p_start {}
 
 Backtrace:
-sass/components/popover.scss:2
+sass/components/jquery.popup.scss:15
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +69,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$spacer-m\".\A         on line 2 of sass/components/popover.scss\A \A 1: .popover {\A 2:   padding: $spacer-m;\A 3:   background-color: $grey;\A 4: }"; }
+  content: "Error: Undefined variable: \"$third-font\".\A         on line 15 of sass/components/jquery.popup.scss\A \A 10:   transition:top 800ms;\A 11: }\A 12: .js__p_start {\A 13:   text-decoration: none;\A 14:   padding-top: 2%;\A 15: font-family: $third-font;\A 16: }\A 17: \A 18: /* JS-styles — declaratively */\A 19: .js__popup {}\A 20:   .js__p_start {}"; }

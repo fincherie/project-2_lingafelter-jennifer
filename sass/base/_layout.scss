@@ -9,27 +9,35 @@ body {
 .header {
   @include media($small){
   display: block;
+  background-color: $white;
   }
+}
+#header {
+  background-color: $white;
 }
 
 .header__logo {
   @include media($small){
     width: 35%;
+    background-color: $white;
   }
   @include media($medium){
     width: 20%;
     float: left;
     max-width: 450px;
+    background-color: $white;
   }
   @include media($large){
     width: 25%;
+    background-color: $white;
   }
 }
 
 .nav {
   @include media ($small) {
-    display: block;
+
     }
+
     @include media ($medium) {
       display: inline-flex;
     }
@@ -37,24 +45,40 @@ body {
 
 .nav {
 
-
   &__list a {
-    display: inline;
     list-style-type: none;
-    width: 100px;
-    color: $red;
+    width: 100%;
+    color: $white;
     text-decoration: none;
+    font-size: .8rem;
+
+    @include media ($medium) {
+    display: inline;
+    color: $red;
+    font-size: 1.2rem;
   }
+}
 
   &__list--item {
+    display: block;
+    text-align: left;
+    background-color: $red;
+    border-color: $white;
+    border-width: 2px;
+    border-style: solid;
+    padding: 3px;
+
+    @include media ($medium) {
     margin-left: 10px;
     display: inline-flex;
+    background-color: $white;
     color: $red;
     border-radius: 10%;
     margin-top: 5%;
     text-decoration: none;
     text-align: center;
   }
+}
 }
 
 //Footer nav

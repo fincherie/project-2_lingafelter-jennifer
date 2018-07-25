@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Project 2</title>
+    <title>GRAD PARTIES</title>
     <link href="css/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
     <link rel="icon" href="img/gradcap.png" type="image/png" sizes="16x16">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+  <script type="text/javascript" src="js/jquery.sticky.js"></script>
+  <script>
+    $(window).load(function(){
+      $("#header").sticky({ topSpacing: 0 });
+    });
+  </script>
 
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <img src="img/logo.png" class="header__logo tooltip" alt="Logo" title="Logo">
       <nav class="nav">
         <ul class="nav__list">
@@ -38,9 +46,10 @@
           </div>
       </div>
       </div>
-        <h1>Party Planning Made Easy</h1>
+
     </header>
     <main class="main">
+        <h1>Party Planning Made Easy</h1>
       <button id="myBtn" class="button--modal">Click for Savings</button>
 
         <div id="myModal" class="modal">
@@ -116,10 +125,7 @@
       	<a href="http://www.instagram.com" target="blank" title="Instagram" class="fa fa-instagram"></a>
     </div>
     </footer>
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+
     <script src="js/modal.js"></script>
   </body>
 </html>

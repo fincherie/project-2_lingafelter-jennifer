@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Project 2</title>
+    <title>GRAD PARTIES</title>
     <link href="css/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="icon" href="img/gradcap.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="css/jquery.popup.css" type="text/css">
+
+    <script src="http://code.jquery.com/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="js/jquery.popup.js"></script>
+
+    <script type="text/javascript">
+      $(function() {
+        $(".js__p_start, .js__p_another_start").simplePopup();
+      });
+    </script>
+
   </head>
   <body>
     <header class="header">
@@ -31,17 +43,28 @@
             </div>
         </div>
         <div class="item-container">
-          <div class="button--secondary">
-            <p>DOWNLOAD</p>
+          <div class="p_anch">
+            <a href="#" class="js__p_start button--secondary">DOWNLOAD</a>
           </div>
+          <div class="popup js__popup js__slide_top">
+            <a href="#" class="p_close js__p_close" title="Закрыть">
+              <span></span><span></span>
+            </a>
+            <div class="p_content">CLICK TO DOWNLOAD APP</div>
+          </div>
+
+
+
       </div>
       </div>
         </header>
+
+
           <main class="main">
             <h2>WE'D LOVE TO HEAR FROM YOU!</h2>
               <p>Food trends change as new restaurants and eating styles become popular. We want to hear your favorite trends or food preferences.  When we hear more about what you want, we can change our menu to give you what you want!</p>
             <div class="contactform">
-                <form class="form" action="/action_page.php">
+                <form class="form">
                   <label class="form__label" for="name">Name</label>
                     <input type="text" id="name" name="name" placeholder="John Smith">
                   <label class="form__label" for="email">Email</label>
@@ -89,7 +112,6 @@
           	<a href="http://www.instagram.com" target="blank" title="Instagram" class="fa fa-instagram"></a>
         </div>
         </footer>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script type="text/javascript" src="/js/turnBox.js"></script>
+
   </body>
 </html>
