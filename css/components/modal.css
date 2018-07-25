@@ -1,5 +1,5 @@
 /*
-Error: Undefined variable: "$grey".
+Error: Undefined variable: "$red".
         on line 7 of sass/components/modal.scss
 
 2: display: none;
@@ -7,12 +7,12 @@ Error: Undefined variable: "$grey".
 4: width: 100%;
 5: 
 6: &__container {
-7: background-color: $grey;
-8: padding: $spacer-m;
-9: 
-10: }
-11: }
-12: 
+7: background-color: $red;
+8: border-color: $black;
+9: border-style: groove;
+10: border-width: 2px;
+11: padding: $spacer-m;
+12: width: 50%;
 
 Backtrace:
 sass/components/modal.scss:7
@@ -80,4 +80,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$grey\".\A         on line 7 of sass/components/modal.scss\A \A 2: display: none;\A 3: position: fixed;\A 4: width: 100%;\A 5: \A 6: &__container {\A 7: background-color: $grey;\A 8: padding: $spacer-m;\A 9: \A 10: }\A 11: }\A 12: "; }
+  content: "Error: Undefined variable: \"$red\".\A         on line 7 of sass/components/modal.scss\A \A 2: display: none;\A 3: position: fixed;\A 4: width: 100%;\A 5: \A 6: &__container {\A 7: background-color: $red;\A 8: border-color: $black;\A 9: border-style: groove;\A 10: border-width: 2px;\A 11: padding: $spacer-m;\A 12: width: 50%;"; }
