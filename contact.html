@@ -10,18 +10,17 @@
     <link rel="icon" href="img/gradcap.png" type="image/png" sizes="16x16">
     <link rel="stylesheet" href="css/jquery.popup.css" type="text/css">
 
-    <script src="http://code.jquery.com/jquery-1.12.4.js"></script>
-    <script type="text/javascript" src="js/jquery.popup.js"></script>
 
-    <script type="text/javascript">
-      $(function() {
-        $(".js__p_start, .js__p_another_start").simplePopup();
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#header").sticky({topSpacing:0});
       });
     </script>
-
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <img src="img/logo.png" class="header__logo" alt="Logo" title="Logo">
       <nav class="nav">
         <ul class="nav__list">
@@ -53,15 +52,13 @@
             <div class="p_content">CLICK TO DOWNLOAD APP</div>
           </div>
 
-
-
       </div>
       </div>
         </header>
 
 
           <main class="main">
-            <h2>WE'D LOVE TO HEAR FROM YOU!</h2>
+            <h2 id="hello">WE'D LOVE TO HEAR FROM YOU!</h2>
               <p>Food trends change as new restaurants and eating styles become popular. We want to hear your favorite trends or food preferences.  When we hear more about what you want, we can change our menu to give you what you want!</p>
             <div class="contactform">
                 <form class="form">
@@ -112,6 +109,14 @@
           	<a href="http://www.instagram.com" target="blank" title="Instagram" class="fa fa-instagram"></a>
         </div>
         </footer>
+        <script src="http://code.jquery.com/jquery-1.12.4.js"></script>
+        <script type="text/javascript" src="js/jquery.popup.js"></script>
+
+        <script type="text/javascript">
+          $(function() {
+            $(".js__p_start, .js__p_another_start").simplePopup();
+          });
+        </script>
 
   </body>
 </html>
