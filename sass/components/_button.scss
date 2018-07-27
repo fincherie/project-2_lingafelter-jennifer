@@ -5,15 +5,17 @@
   padding: $spacer-s;
   color: $white;
   font-size: 1.2rem;
-  float: left;
+  border-radius: 30px;
+  margin-bottom: $spacer-s;
 }
 
 .button {
-  width: 120px;
+  width: 80px;
   text-align: center;
   margin: auto;
 
   @include media ($medium) {
+    width: 120px;
     float: right;
     margin-right: 20px;
   }

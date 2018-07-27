@@ -11,15 +11,15 @@ h1 {
   }
 
   @include media($medium) {
+    clear: both;
     font-size: 2rem;
     color: $gold;
     font-family: $secondary-font;
-    float: left;
+    margin-top: -15%;
   }
-
-  @include media($large) {
-      float: left;
-    }
+  @include media($medium) {
+    margin-top: -20%;
+  }
 }
 
 h2 {
