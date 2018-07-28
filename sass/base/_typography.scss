@@ -17,6 +17,7 @@ h1 {
     font-family: $secondary-font;
     margin-top: -15%;
   }
+
   @include media($medium) {
     margin-top: -20%;
   }
@@ -52,7 +53,12 @@ h6 {
 
 p {
   font-family: $primary-font;
-  font-size: 1.1rem;
+  font-size: 1rem;
+
+  @include media($medium) {
+    font-size: 1.3rem;
+  }
+
 }
 
 a {

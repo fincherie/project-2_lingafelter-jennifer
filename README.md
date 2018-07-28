@@ -5,22 +5,19 @@
 
 #### Link to website
 [Website Link](http://jlingafelter.com/project-2_lingafelter-jennifer)
-<!-- Edit this for Project 2 - Part 3 -->
 
-#### Instructions on how to view
-1. `git clone` the repository to view it locally.
-2. Use `sass --watch sass:css --style compressed` to get sass started.
-
----
-
-## Project 2 - Part 3
+## Project 2 - Part 4
 
 #### Resources
-I used W3Schools as my main reference for this initial phase of the project.  I created all of the pages first and am focusing on the basic styling of the elements including the mobile-first responsive design.
+I continued to use W3Schools as my main reference as well as the book JQuery & Javascript for the js coding.  For my plugins, I used:
+
+
+(http://stickyjs.com/)
+(https://www.jqueryscript.net/tags.php?/popup/)
 
 #### Deductions
 I have reviewed the list of deductions for this project and in the syllabus.
 
 #### Comments
-My approach for this project is to create the pages and the main styles and will work on the javascript and jquery events after I get the site to look good.
+I have most of the content and the required elements but need to fine tune them, clean up my code and make sure my plugins are working correctly.
 ---
