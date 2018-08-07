@@ -9,6 +9,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="icon" href="img/gradcap.png" type="image/png" sizes="16x16">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/jquery.popup.css" type="text/css">
   </head>
   <body>
     <header class="header" id="header">
@@ -36,7 +37,7 @@
           <div class="button--secondary">
             <p>DOWNLOAD</p>
           </div>
-      </div>
+        </div>
       </div>
     </header>
     <main class="mainabout">
@@ -87,6 +88,21 @@
           <p class="mainabout__desc">The food and service was really good and they made it easy to plan the party. The food and service was really good and they made it easy to plan the party.  The food and service was really good and they made it easy to plan the party.</p>
       </div>
     </div>
+
+    <div class="item-container">
+      <div class="p_anch">
+        <a href="#" class="js__p_start button--secondary"><img src="img/app.jpg" alt="app" class="app" title="app" /></a>
+      </div>
+      <div class="popup js__popup js__slide_top">
+        <a href="#" class="p_close js__p_close" title="Закрыть">
+          <span></span><span></span>
+        </a>
+        <div class="p_content">CLICK TO DOWNLOAD APP</div>
+      </div>
+    </div>
+
+
+
   </main>
   <footer class="footer">
     <div class="leftfooter">
@@ -113,6 +129,14 @@
       <a href="http://www.instagram.com" target="blank" title="Instagram" class="fa fa-instagram"></a>
   </div>
   </footer>
+  <script src="http://code.jquery.com/jquery-1.12.4.js"></script>
+  <script type="text/javascript" src="js/jquery.popup.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $(".js__p_start, .js__p_another_start").simplePopup();
+    });
+  </script>
+
     <script src="js/main.js"></script>
   </body>
 </html>

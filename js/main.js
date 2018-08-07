@@ -4,7 +4,6 @@ $(document).ready(function(){
   document.getElementById('hello').addEventListener("click", function(){
     var hello=$('#hello');
     hello.css({
-          'font-size': '50px',
           'color': 'red',
    });
    hello.after('GRad Parties');
