@@ -6,137 +6,121 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="icon" href="img/gradcap.png" type="image/png" sizes="16x16">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/jquery.popup.css" type="text/css">
-  </head>
-  <body>
-    <header class="header" id="header">
-      <img src="img/logo.png" class="header__logo" alt="Logo" title="Logo">
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__list--item">
-            <a href="index.html">HOME</a>
-          </li>
-          <li class="nav__list--item">
-            <a href="about.html">ABOUT</a>
-          </li>
-          <li class="nav__list--item">
-            <a href="contact.html">CONTACT</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="button">
+      <script src="http://code.jquery.com/jquery-1.12.4.js"></script>
+
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+    <script>
+      $(window).load(function(){
+        $("#header").sticky({ topSpacing: 0 });
+      });
+    </script>
+    </head>
+    <body>
+      <header class="header" id="header">
+        <img src="img/logo.png" class="header__logo" alt="Logo" title="Logo">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__list--item">
+              <a href="index.html">HOME</a>
+            </li>
+            <li class="nav__list--item">
+              <a href="about.html">ABOUT</a>
+            </li>
+            <li class="nav__list--item">
+              <a href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="button">
           <div class="item-container">
             <div class="button--primary">
               <p>SIGN IN</p>
             </div>
-        </div>
-        <div class="item-container">
-          <div class="button--secondary">
-            <p>DOWNLOAD</p>
+          </div>
+          <div class="item-container">
+            <div class="button--secondary">
+              <p>DOWNLOAD</p>
+            </div>
           </div>
         </div>
-      </div>
-    </header>
-    <main class="mainabout">
-      <div class="mainabout__section--one">
-        <h2 id="hello">ABOUT US</h2>
-          <p>G”RAD” Parties lets you host a customized, awesome party that will differentiate you from your friends’ graduation parties.  We offer food bars for tacos, pizzas, potatoes and pasta and over a thousand options for meals.  You select which “bar” and we deliver and set up a great tasting, unique making food experience.</p>
-          <img src="img/buffet.jpg" class="mainabout__section--img" alt="buffet" title="buffet" />
-            </div>
-        <div class="mainabout__section--two">
+      </header>
+      <main class="mainabout">
+        <div class="mainabout__section--one">
+          <h2>ABOUT US</h2>
+            <p>G”RAD” Parties lets you host a customized, awesome party that will differentiate you from your friends’ graduation parties.  We offer food bars for tacos, pizzas, potatoes and pasta and over a thousand options for meals.  You select which “bar” and we deliver and set up a great tasting, unique making food experience.</p>
+            <img src="img/buffet.jpg" class="mainabout__section--img" alt="buffet" title="buffet" />
+        </div>
+        <div class="mainabout__section--two" id="hello">
           <h2>GRAD FOOD IS BEST</h2>
             <p>G”RAD” Parties lets you host a customized, awesome party that will differentiate you from your friends’ graduation parties.  We offer food bars for tacos, pizzas, potatoes and pasta and over a thousand options for meals.  You select which “bar” and we deliver and set up a great tasting, unique making food experience.</p>
         </div>
           <h2>TESTIMONIALS</h2>
-        <div class="mainabout__testimony">
-          <div class="item-container">
-            <div class="chip">
-              <div class="chip__avatar">
-                JL
-              </div>
-              <div class="chip__text-container">
-                <div class="chip__text-title">
-                  Jennifer Lingafelter
+            <div class="mainabout__testimony">
+              <div class="item-container">
+                <div class="chip">
+                  <div class="chip__avatar">
+                    JL
+                  </div>
+                  <div class="chip__text-container">
+                    <div class="chip__text-title">
+                      Jennifer Lingafelter
+                    </div>
+                    <div class="chip__text-description">
+                      jlingaf@ufl.edu
+                    </div>
+                  </div>
                 </div>
-                <div class="chip__text-description">
-                  jlingaf@ufl.edu
+              </div>
+                <p class="mainabout__desc">The food and service was really good and they made it easy to plan the party. The food and service was really good and they made it easy to plan the party.  The food and service was really good and they made it easy to plan the party.</p>
+            </div>
+            <div class="mainabout__testimony">
+              <div class="item-container">
+                <div class="chip">
+                  <div class="chip__avatar">
+                    JS
+                  </div>
+                  <div class="chip__text-container">
+                    <div class="chip__text-title">
+                      John Smith
+                    </div>
+                    <div class="chip__text-description">
+                      jsmith@ufl.edu
+                    </div>
+                  </div>
                 </div>
               </div>
-        </div>
-      </div>
-            <p class="mainabout__desc">The food and service was really good and they made it easy to plan the party. The food and service was really good and they made it easy to plan the party.  The food and service was really good and they made it easy to plan the party.</p>
-        </div>
-          <div class="mainabout__testimony">
-        <div class="item-container">
-          <div class="chip">
-            <div class="chip__avatar">
-              JS
-            </div>
-            <div class="chip__text-container">
-              <div class="chip__text-title">
-                John Smith
-              </div>
-              <div class="chip__text-description">
-                jsmith@ufl.edu
+                <p class="mainabout__desc">The food and service was really good and they made it easy to plan the party. The food and service was really good and they made it easy to plan the party.  The food and service was really good and they made it easy to plan the party.</p>
               </div>
             </div>
-      </div>
-    </div>
-          <p class="mainabout__desc">The food and service was really good and they made it easy to plan the party. The food and service was really good and they made it easy to plan the party.  The food and service was really good and they made it easy to plan the party.</p>
-      </div>
-    </div>
 
-    <div class="item-container">
-      <div class="p_anch">
-        <a href="#" class="js__p_start button--secondary"><img src="img/app.jpg" alt="app" class="app" title="app" /></a>
-      </div>
-      <div class="popup js__popup js__slide_top">
-        <a href="#" class="p_close js__p_close" title="Закрыть">
-          <span></span><span></span>
-        </a>
-        <div class="p_content">CLICK TO DOWNLOAD APP</div>
-      </div>
-    </div>
-
-
-
-  </main>
-  <footer class="footer">
-    <div class="leftfooter">
-      <p>GRad Parties&copy;2018</p>
-      <p>(555) 321-1234</p>
-      <p>grad@aol.com</p>
-    </div>
-    <nav class="navfooter">
-      <ul class="navfooter__list">
-        <li class="navfooter__list--item">
-          <a href="index.html">HOME</a>
-        </li>
-        <li class="navfooter__list--item">
-          <a href="about.html">ABOUT</a>
-        </li>
-        <li class="navfooter__list--item">
-          <a href="contact.html">CONTACT</a>
-        </li>
-      </ul>
-    </nav>
-  <div class="socialfooter">
-      <a href="http://www.facebook.com" target="blank" title="Facebook" class="fa fa-facebook"></a>
-      <a href="http://www.twitter.com" target="blank" title="Twitter" class="fa fa-twitter"></a>
-      <a href="http://www.instagram.com" target="blank" title="Instagram" class="fa fa-instagram"></a>
-  </div>
-  </footer>
-  <script src="http://code.jquery.com/jquery-1.12.4.js"></script>
-  <script type="text/javascript" src="js/jquery.popup.js"></script>
-  <script type="text/javascript">
-    $(function() {
-      $(".js__p_start, .js__p_another_start").simplePopup();
-    });
-  </script>
-
-    <script src="js/main.js"></script>
-  </body>
-</html>
+        </main>
+        <footer class="footer">
+          <div class="leftfooter">
+            <p>GRad Parties&copy;2018</p>
+            <p>(555) 321-1234</p>
+            <p>grad@aol.com</p>
+          </div>
+          <nav class="navfooter">
+            <ul class="navfooter__list">
+              <li class="navfooter__list--item">
+                <a href="index.html">HOME</a>
+              </li>
+              <li class="navfooter__list--item">
+                <a href="about.html">ABOUT</a>
+              </li>
+              <li class="navfooter__list--item">
+                <a href="contact.html">CONTACT</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="socialfooter">
+              <a href="http://www.facebook.com" target="blank" title="Facebook" class="fa fa-facebook"></a>
+              <a href="http://www.twitter.com" target="blank" title="Twitter" class="fa fa-twitter"></a>
+              <a href="http://www.instagram.com" target="blank" title="Instagram" class="fa fa-instagram"></a>
+          </div>
+          </footer>
+        <script src="js/main.js"></script>
+      </body>
+    </html>

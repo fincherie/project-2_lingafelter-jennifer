@@ -6,13 +6,13 @@ Error: Undefined variable: "$third-font".
 11: }
 12: .js__p_start {
 13:   text-decoration: none;
-14:   padding-top: 2%;
+14:   padding: 2%;
 15:   font-family: $third-font;
-16: }
-17: 
-18: /* JS-styles — declaratively *\/
-19: .js__popup {}
-20:   .js__p_start {}
+16:   background-color: $darkgray;
+17:   color: $white;
+18:   border-radius: 25px;
+19:   border-style: double;
+20:   border-color: $black;
 
 Backtrace:
 sass/components/jquery.popup.scss:15
@@ -69,4 +69,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$third-font\".\A         on line 15 of sass/components/jquery.popup.scss\A \A 10:   transition:top 800ms;\A 11: }\A 12: .js__p_start {\A 13:   text-decoration: none;\A 14:   padding-top: 2%;\A 15:   font-family: $third-font;\A 16: }\A 17: \A 18: /* JS-styles — declaratively */\A 19: .js__popup {}\A 20:   .js__p_start {}"; }
+  content: "Error: Undefined variable: \"$third-font\".\A         on line 15 of sass/components/jquery.popup.scss\A \A 10:   transition:top 800ms;\A 11: }\A 12: .js__p_start {\A 13:   text-decoration: none;\A 14:   padding: 2%;\A 15:   font-family: $third-font;\A 16:   background-color: $darkgray;\A 17:   color: $white;\A 18:   border-radius: 25px;\A 19:   border-style: double;\A 20:   border-color: $black;"; }

@@ -16,7 +16,14 @@
       $("#header").sticky({ topSpacing: 0 });
     });
   </script>
-
+  <link rel="stylesheet" href="css/jquery.popup.css" type="text/css">
+  <script src="http://code.jquery.com/jquery-1.12.4.js"></script>
+  <script type="text/javascript" src="js/jquery.popup.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $(".js__p_start, .js__p_another_start").simplePopup();
+    });
+  </script>
   </head>
   <body>
     <header class="header" id="header">
@@ -62,7 +69,7 @@
             <input class="input modal__input "type="email" id="email" name="email" placeholder="abc@aol.com">
                 <ul class="modal__action-list">
                   <li class="modal__action-list__item">
-                    <button class="modalbutton--secondary" >Cancel</button>
+                    <button class="modalbutton--secondary" >cancel</button>
                   </li>
                   <li class="modal__action-list__item">
                     <input type="submit" value="submit" class="modalbutton--primary" />
@@ -75,8 +82,18 @@
           <img src="img/taco.jpg" class="main__section--img" alt="taco" title="taco" />
             <div class="main__section--descr">
               <h2>Why GRad</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Graduation time can be hectic and planning a party could be worse.  At GRad parties, we take care of the planning by providing a quick and easy PICK and CLICK app.  You pick the type of food bar and we deliver it to you!</p>
+                <div class="item-container">
+                  <div class="p_anch">
+                    <a href="#" class="js__p_start">DOWNLOAD NOW</a>
+                  </div>
+                  <div class="popup js__popup js__slide_top">
+                    <a href="#" class="p_close js__p_close" title="Закрыть">
+                      <span></span><span></span>
+                    </a>
+                  <div class="p_content">CLICK TO DOWNLOAD APP</div>
+                </div>
+              </div>
               </div>
             </div>
             <div class="main__section">

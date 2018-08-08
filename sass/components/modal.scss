@@ -4,7 +4,7 @@ position: fixed;
 width: 100%;
 
 &__container {
-background-color: $red;
+background-color: $gray;
 border-color: $black;
 border-style: groove;
 border-width: 2px;
@@ -12,6 +12,11 @@ padding: $spacer-m;
 width: 50%;
 margin: auto;
 }
+}
+
+.form__modal {
+  clear: both;
+  margin-bottom: 20px;
 }
 
 /* The Close Button */

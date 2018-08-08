@@ -8,96 +8,95 @@
     <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="icon" href="img/gradcap.png" type="image/png" sizes="16x16">
-    <link rel="stylesheet" href="css/jquery.popup.css" type="text/css">
-  </head>
-  <body>
-    <header class="header" id="header">
-      <img src="img/logo.png" class="header__logo" alt="Logo" title="Logo">
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__list--item">
-            <a href="index.html">HOME</a>
-          </li>
-          <li class="nav__list--item">
-            <a href="about.html">ABOUT</a>
-          </li>
-          <li class="nav__list--item">
-            <a href="contact.html">CONTACT</a>
-          </li>
-        </ul>
-      </nav>
-        <div class="button">
-          <div class="item-container">
-            <div class="button--primary">
-              <p>SIGN IN</p>
-            </div>
-        </div>
-        <div class="item-container">
-          <div class="button--secondary">
-            <p>DOWNLOAD</p>
-          </div>
-        </div>
-      </div>
-        </header>
-          <main class="main">
-            <h2>WE'D LOVE TO HEAR FROM YOU!</h2>
-              <p>Food trends change as new restaurants and eating styles become popular. We want to hear your favorite trends or food preferences.  When we hear more about what you want, we can change our menu to give you what you want!</p>
-            <div class="contactform" id="clicker">
-                <form class="form">
-                  <label class="form__label" for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="John Smith">
-                  <label class="form__label" for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="abc@aol.com">
-                  <label class="form__label" for="email">Phone</label>
-                    <input type="tel" id="phone" name="phone" placeholder="555-555-5555">
-                  <label class="form__label" for="contact">Preferred Contact Method</label>
-                    <select id="contact" name="contact">
-                      <option value="phone">Phone</option>
-                      <option value="email">Emaill</option>
-                      <option value="text">Text</option>
-                    </select>
-                  <label class="form__label" for="message">How can we help?</label>
-                    <textarea class="form__message" id="message" name="message" placeholder="Message"></textarea>
-                <div class="contactbutton">
-                  <input class="contactbutton--primary" type="submit" value="Submit">
-                    <button class="contactbutton--secondary" type="reset" value="Reset">Reset</button>
-                </div>
-            </form>
-          </div>
-          <img class="main__img" src="img/decoration.jpg" alt="decoration" title="decoration"/>
-        </main>
-        <footer class="footer">
-          <div class="leftfooter">
-            <p>GRad Parties&copy;2018</p>
-            <p>(555) 321-1234</p>
-            <p>grad@aol.com</p>
-          </div>
-          <nav class="navfooter">
-            <ul class="navfooter__list">
-              <li class="navfooter__list--item">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+    <script>
+      $(window).load(function(){
+        $("#header").sticky({ topSpacing: 0 });
+      });
+    </script>
+    </head>
+    <body>
+      <header class="header" id="header">
+        <img src="img/logo.png" class="header__logo" alt="Logo" title="Logo">
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__list--item">
                 <a href="index.html">HOME</a>
               </li>
-              <li class="navfooter__list--item">
+              <li class="nav__list--item">
                 <a href="about.html">ABOUT</a>
               </li>
-              <li class="navfooter__list--item">
+              <li class="nav__list--item">
                 <a href="contact.html">CONTACT</a>
               </li>
             </ul>
           </nav>
-        <div class="socialfooter">
-          	<a href="http://www.facebook.com" target="blank" title="Facebook" class="fa fa-facebook"></a>
-          	<a href="http://www.twitter.com" target="blank" title="Twitter" class="fa fa-twitter"></a>
-          	<a href="http://www.instagram.com" target="blank" title="Instagram" class="fa fa-instagram"></a>
-        </div>
-        </footer>
-        <script src="http://code.jquery.com/jquery-1.12.4.js"></script>
-        <script type="text/javascript" src="js/jquery.popup.js"></script>
-        <script type="text/javascript">
-          $(function() {
-            $(".js__p_start, .js__p_another_start").simplePopup();
-          });
-        </script>
-        <script src="js/main2.js"></script>
-  </body>
-</html>
+            <div class="button">
+              <div class="item-container">
+                <div class="button--primary">
+                  <p>SIGN IN</p>
+                </div>
+            </div>
+            <div class="item-container">
+              <div class="button--secondary">
+                <p>DOWNLOAD</p>
+              </div>
+            </div>
+          </div>
+        </header>
+        <main class="main">
+          <h2>WE'D LOVE TO HEAR FROM YOU!</h2>
+            <p>Food trends change as new restaurants and eating styles become popular. We want to hear your favorite trends or food preferences.  When we hear more about what you want, we can change our menu to give you what you want!</p>
+            <div class="contactform" id="clicker">
+              <form class="form">
+                <label class="form__label" for="name">Name</label>
+                  <input type="text" id="name" name="name" placeholder="John Smith">
+                  <label class="form__label" for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="abc@aol.com">
+                  <label class="form__label" for="email">Phone</label>
+                  <input type="tel" id="phone" name="phone" placeholder="555-555-5555">
+                  <label class="form__label" for="contact">Preferred Contact Method</label>
+                  <select id="contact" name="contact">
+                      <option value="phone">Phone</option>
+                      <option value="email">Emaill</option>
+                      <option value="text">Text</option>
+                  </select>
+                  <label class="form__label" for="message">How can we help?</label>
+                  <textarea class="form__message" id="message" name="message" placeholder="Message"></textarea>
+                <div class="contactbutton">
+                  <input class="contactbutton--primary" type="submit" value="Submit">
+                  <button class="contactbutton--secondary" type="reset" value="Reset">Reset</button>
+                </div>
+              </form>
+            </div>
+            <img class="main__img" src="img/decoration.jpg" alt="decoration" title="decoration"/>
+          </main>
+          <footer class="footer">
+            <div class="leftfooter">
+              <p>GRad Parties&copy;2018</p>
+              <p>(555) 321-1234</p>
+              <p>grad@aol.com</p>
+            </div>
+            <nav class="navfooter">
+              <ul class="navfooter__list">
+                <li class="navfooter__list--item">
+                  <a href="index.html">HOME</a>
+                </li>
+                <li class="navfooter__list--item">
+                  <a href="about.html">ABOUT</a>
+                </li>
+                <li class="navfooter__list--item">
+                  <a href="contact.html">CONTACT</a>
+                </li>
+              </ul>
+            </nav>
+          <div class="socialfooter">
+            	<a href="http://www.facebook.com" target="blank" title="Facebook" class="fa fa-facebook"></a>
+            	<a href="http://www.twitter.com" target="blank" title="Twitter" class="fa fa-twitter"></a>
+            	<a href="http://www.instagram.com" target="blank" title="Instagram" class="fa fa-instagram"></a>
+          </div>
+          </footer>
+          <script src="js/main2.js"></script>
+        </body>
+      </html>
