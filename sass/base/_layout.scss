@@ -244,3 +244,14 @@ body {
 	background-color: red;
   color: #ffffff;
 }
+
+.grid-container {
+  margin-top: 3%;
+  grid-template-columns: auto auto auto;
+  display: inline-grid;
+}
+
+.contact__img {
+  width: 80%;
+  margin: auto;
+}
