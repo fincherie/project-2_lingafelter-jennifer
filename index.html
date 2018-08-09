@@ -11,10 +11,21 @@
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 
   <script type="text/javascript" src="js/jquery.sticky.js"></script>
+  <script>
+    $(window).load(function(){
+      $("#header").sticky({ topSpacing: 0 });
+    });
+  </script>
   <link rel="stylesheet" href="css/jquery.popup.css" type="text/css">
   <script src="http://code.jquery.com/jquery-1.12.4.js"></script>
   <script type="text/javascript" src="js/jquery.popup.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $(".js__p_start, .js__p_another_start").simplePopup();
+    });
+  </script>
   </head>
+  <body>
   <body>
     <header class="header" id="header">
       <img src="img/logo.png" class="header__logo tooltip" alt="Logo" title="Logo" id="logo">
@@ -93,6 +104,7 @@
                 </div>
                 <img src="img/table.jpeg" id="app" class="main__section--img" alt="table" title="table" />
             </div>
+
           </main>
           <footer class="footer">
             <div class="leftfooter">
@@ -120,6 +132,5 @@
           </div>
       </footer>
     <script src="js/modal.js"></script>
-    <script src="js/main.js"></script>
   </body>
 </html>
