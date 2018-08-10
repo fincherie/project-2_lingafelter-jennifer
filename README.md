@@ -5,10 +5,11 @@
 
 #### Link to website
 [Jennifer's Website](http://jlingafelter.com/project-2_lingafelter-jennifer)
-<!-- Edit this for Project 2 - Part 3 -->
 
 #### Link to W3C's Validator
-[W3C Validator Link](https://validator.w3.org/nu/#file)
+[W3C Validator Link](https://validator.w3.org/nu/?doc=http%3A%2F%2Fjlingafelter.com%2Fproject-2_lingafelter-jennifer%2Findex.html)
+
+There are no errors when I upload each html page.  The stray start tag error shows on the hosting site.
 
 #### Link to HTML5 Outliner
 [HTML5 Outliner](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fjlingafelter.com%2Fproject-2_lingafelter-jennifer%2F)
@@ -41,7 +42,7 @@ When you scroll down the page, the header will stick to the top of the page.
 
 [Popup](https://www.jqueryscript.net/tags.php?/popup/)
 
-When you click on the Download Now button on the Home page, a popup window appears to download the app.
+When you click on the Download Now button on the Home page, a popup window appears to download the app.  When I uploaded the file via Cyberduck, the css styling did not update because the modal should be gray and the download now is a button.  Also, the download now only appears after you go to another page and then return to the home page.  This works on my local file but not on my hosting site.
 
 #### Deductions
 
