@@ -8,7 +8,7 @@
 <!-- Edit this for Project 2 - Part 3 -->
 
 #### Link to W3C's Validator
-[W3C Validator Link](https://validator.w3.org/)
+[W3C Validator Link](https://validator.w3.org/nu/#file)
 
 #### Link to HTML5 Outliner
 [HTML5 Outliner](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fjlingafelter.com%2Fproject-2_lingafelter-jennifer%2F)
